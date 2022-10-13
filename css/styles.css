@@ -1,0 +1,103 @@
+
+.body {
+color:#757575 ;
+background-color: #ffffff;
+}
+ 
+
+ul {
+    list-style: none;
+}
+ /* Styling Logo */
+ 
+.logo {
+    color: #2196F3;
+}
+.logo-studio{
+    color: #000000;
+}
+
+.logo:hover,
+.logo:focus{
+    color: red;
+}
+
+.logo-studio:hover,
+.logo-studio:focus{
+    color: red;
+}
+
+/* Styling Naw */
+
+ .nav-lyst { 
+        color: #212121;
+}
+
+.site-nav .nav-lyst:hover,
+.site-nav .nav-lyst:focus{
+    color: red;
+}
+
+
+
+/* style contact */
+
+
+.site-nav-mail:hover,
+.site-nav-mail:focus{
+    color: red;
+}
+.site-nav-mail, .site-nav-tel{
+    color: #757575;
+}
+.site-nav-tel:hover,
+.site-nav-tel:focus{
+    color: red;
+}
+
+
+
+/* section section-title styles */
+.section{
+    color: #212121;
+}
+
+
+/* hero styles */
+.hero{
+    background: #2F303A;
+}
+.section-bissnes{
+    color: #ffffff;
+}
+
+.hero-button{
+        width: 216px;
+        height: 50px;
+        left: 692px;
+        top: 430px;
+    
+        background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+}
+
+/* features styling */
+
+.features {
+    color: #212121;
+}
+.title{
+    color: #757575  ;
+}
+
+
+
+
+
+
+
+  /* Утиліт для скидування  */
+  /* .lyst{
+    list-style: none;
+} */
