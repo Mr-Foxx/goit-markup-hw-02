@@ -7,11 +7,11 @@
 
 .body {
     background-color: #ffffff;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 
     color: var(--main-color-text);
@@ -24,6 +24,7 @@ ul {
  /* Styling Logo */
  
 .logo {
+    font-family: Raleway, cursive;
     color: var(--accent-color);
 }
 .logo-studio{
@@ -141,9 +142,8 @@ ul {
     font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height: 1.7;
         letter-spacing: 0.03em;
-    
         color: rgba(255, 255, 255, 0.6);
 }
 
