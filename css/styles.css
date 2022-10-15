@@ -60,7 +60,8 @@ ul {
 .site-nav-mail:focus{
     color: red;
 }
-.site-nav-mail, .site-nav-tel{
+.site-nav-mail,
+ .site-nav-tel{
     color: var(--main-color-text);
 }
 .site-nav-tel:hover,
@@ -68,6 +69,26 @@ ul {
     color: red;
 }
 
+/* Особливості Filters  */
+
+.button .button-lyst{
+    color: var(--title-color);
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button .button-lyst:hover,
+.button .button-lyst:focus{
+    color: red;
+}
+
+/* Portfolio styling */
+.pf-title{
+    color: var(--title-color);
+}
+.pf-lyst{
+    color: var(--main-color-text);
+}
 
 
 /* section section-title styles */
@@ -107,17 +128,34 @@ ul {
 /* Footer styling */
 
 .maps{
-    color: ffffff;
+    color: #ffffff;
 }
+
+.address{
+        background: #2F303A;
+}
+
 
 .address-title{
 
-    color: rgba(255, 255, 255, 0.6);;
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
 }
 
+.maps:hover,
+.maps:focus{
+    color: red;
+}
 
-
-
+.address-title:hover,
+.address-title:focus{
+    color: red;
+}
   /* Утиліт для скидування  */
   /* .lyst{
     list-style: none;
