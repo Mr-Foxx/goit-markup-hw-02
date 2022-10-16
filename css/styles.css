@@ -24,11 +24,20 @@ ul {
  /* Styling Logo */
  
 .logo {
-    font-family: Raleway, cursive;
-    color: var(--accent-color);
+        font-family: Raleway, cursive;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        text-decoration: none;
+        color: var(--accent-color);
 }
 .logo-studio{
-    color: #000000;
+        font-family: Raleway, cursive;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        text-decoration: none;
+        color: #000000;
 }
 
 .logo:hover,
@@ -44,6 +53,11 @@ ul {
 /* Styling Naw */
 
  .nav-lyst { 
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
         color: var(--title-color);
 }
 
@@ -63,6 +77,7 @@ ul {
 }
 .site-nav-mail,
  .site-nav-tel{
+    text-decoration: none;
     color: var(--main-color-text);
 }
 .site-nav-tel:hover,
@@ -70,12 +85,22 @@ ul {
     color: red;
 }
 
+.site-nav-contact{
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
 /* Особливості Filters  */
 
 .button .button-lyst{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        border-radius: 4px;
     color: var(--title-color);
     background: #F5F4FA;
-    border-radius: 4px;
+    
 }
 
 .button .button-lyst:hover,
@@ -85,24 +110,61 @@ ul {
 
 /* Portfolio styling */
 .pf-title{
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        text-decoration: none;
     color: var(--title-color);
 }
 .pf-lyst{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        text-decoration: none;
     color: var(--main-color-text);
 }
 
 
 /* section section-title styles */
 .section{
+    background-color: #F5F5F5;;
     color: var(--title-color)
 }
 
+.team{
+    background-color: #F5F4FA;
+}
+
+.section-title{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.section-list{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+}
+.section-profession{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+}
 
 /* hero styles */
 .hero{
     background: #2F303A;
 }
 .section-bissnes{
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        text-transform: uppercase;
     color: #ffffff;
 }
 
@@ -111,7 +173,7 @@ ul {
         height: 50px;
         left: 692px;
         top: 430px;
-    
+        text-align: center;
         background: var(--accent-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
@@ -122,13 +184,25 @@ ul {
 .features {
     color: var(--title-color);
 }
+.features-title{
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+}
 .title{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
     color: var(--main-color-text) ;
 }
 
 /* Footer styling */
 
 .maps{
+    text-decoration: none;
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
     color: #ffffff;
 }
 
@@ -138,12 +212,11 @@ ul {
 
 
 .address-title{
-
+text-decoration: none;
     font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
-        letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
 }
 
