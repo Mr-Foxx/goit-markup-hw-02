@@ -18,9 +18,19 @@
 }
  
 
+/* Утиліт для скидування точок */
+/* .lyst{
+    list-style: none;
+} */
+
+
 ul {
     list-style: none;
 }
+
+
+
+
  /* Styling Logo */
  
 .logo {
@@ -91,6 +101,87 @@ ul {
         line-height: 1.14;
         letter-spacing: 0.02em;
 }
+
+
+/* hero styles */
+
+.hero {
+    background: #2F303A;
+}
+
+.section-bissnes {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.hero-button {
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    text-align: center;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+
+/* features styling */
+.features {
+    color: var(--title-color);
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--main-color-text);
+}
+
+
+/* section section-title styles */
+.section {
+    background-color: #F5F5F5;
+    ;
+    color: var(--title-color)
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.section-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.section-profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
 /* Особливості Filters  */
 
 .button .button-lyst{
@@ -98,6 +189,7 @@ ul {
         font-size: 16px;
         line-height: 1.6;
         border-radius: 4px;
+        cursor: pointer;
     color: var(--title-color);
     background: #F5F4FA;
     
@@ -124,77 +216,6 @@ ul {
     color: var(--main-color-text);
 }
 
-
-/* section section-title styles */
-.section{
-    background-color: #F5F5F5;;
-    color: var(--title-color)
-}
-
-.team{
-    background-color: #F5F4FA;
-}
-
-.section-title{
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.16;
-        text-align: center;
-        letter-spacing: 0.03em;
-}
-.section-list{
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.18;
-        text-align: center;
-}
-.section-profession{
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.18;
-        text-align: center;
-}
-
-/* hero styles */
-.hero{
-    background: #2F303A;
-}
-.section-bissnes{
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        text-align: center;
-        text-transform: uppercase;
-    color: #ffffff;
-}
-
-.hero-button{
-        width: 216px;
-        height: 50px;
-        left: 692px;
-        top: 430px;
-        text-align: center;
-        background: var(--accent-color);
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-}
-
-/* features styling */
-
-.features {
-    color: var(--title-color);
-}
-.features-title{
-    font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-}
-.title{
-    font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
-    color: var(--main-color-text) ;
-}
 
 /* Footer styling */
 
@@ -229,7 +250,4 @@ text-decoration: none;
 .address-title:focus{
     color: red;
 }
-  /* Утиліт для скидування  */
-  /* .lyst{
-    list-style: none;
-} */
+  
