@@ -5,7 +5,7 @@
 }
 
 
-.body {
+body {
     background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -19,45 +19,62 @@
  
 
 /* Утиліт для скидування точок */
-/* .lyst{
+.lyst{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ul {
     list-style: none;
 } */
-
-
-ul {
-    list-style: none;
-}
 
 
 
 
  /* Styling Logo */
+
+ .logo-index{
+    text-decoration: none;
+ }
  
 .logo {
         font-family: Raleway, cursive;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.2;
-        text-decoration: none;
         color: var(--accent-color);
+}
+
+.logo-white{
+    font-family: Raleway, cursive;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+    color: #000000;
 }
 .logo-studio{
         font-family: Raleway, cursive;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.2;
-        text-decoration: none;
-        color: #000000;
+        color: #ffffff;
+}
+
+.logo-white:hover,
+.logo-white:focus{
+    color: var(--accent-color);
 }
 
 .logo:hover,
 .logo:focus{
-    color: red;
+    color: var(--accent-color);
 }
 
 .logo-studio:hover,
 .logo-studio:focus{
-    color: red;
+    color: var(--accent-color);
 }
 
 /* Styling Naw */
@@ -73,7 +90,7 @@ ul {
 
 .site-nav .nav-lyst:hover,
 .site-nav .nav-lyst:focus{
-    color: red;
+    color: var(--accent-color);
 }
 
 
@@ -83,7 +100,7 @@ ul {
 
 .site-nav-mail:hover,
 .site-nav-mail:focus{
-    color: red;
+    color: var(--accent-color);
 }
 .site-nav-mail,
  .site-nav-tel{
@@ -92,7 +109,7 @@ ul {
 }
 .site-nav-tel:hover,
 .site-nav-tel:focus{
-    color: red;
+    color: var(--accent-color);
 }
 
 .site-nav-contact{
@@ -127,6 +144,7 @@ ul {
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 }
 
 
@@ -151,7 +169,7 @@ ul {
 
 /* section section-title styles */
 .section {
-    background-color: #F5F5F5;
+    background-color: #ffffff;
     ;
     color: var(--title-color)
 }
@@ -180,6 +198,7 @@ ul {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
+    color: var(--main-color-text);
 }
 
 /* Особливості Filters  */
@@ -197,7 +216,7 @@ ul {
 
 .button .button-lyst:hover,
 .button .button-lyst:focus{
-    color: red;
+    color: var(--accent-color);
 }
 
 /* Portfolio styling */
@@ -205,7 +224,7 @@ ul {
     font-weight: 700;
         font-size: 18px;
         line-height: 2;
-        text-decoration: none;
+        text-decoration: none ;
     color: var(--title-color);
 }
 .pf-lyst{
@@ -228,6 +247,7 @@ ul {
 }
 
 .address{
+    font-style: normal;
         background: #2F303A;
 }
 
@@ -243,11 +263,11 @@ text-decoration: none;
 
 .maps:hover,
 .maps:focus{
-    color: red;
+    color: var(--accent-color);
 }
 
 .address-title:hover,
 .address-title:focus{
-    color: red;
+    color: var(--accent-color);
 }
   
